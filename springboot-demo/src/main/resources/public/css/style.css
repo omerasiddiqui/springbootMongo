@@ -1,0 +1,114 @@
+  @import url('https://fonts.googleapis.com/css?family=K2D');
+    h4 {
+        margin: 5px 0;
+    }
+    ul {
+        padding: 0;
+    }
+    body {
+        background: linear-gradient(to right, #134e5e, #71b280);
+        font-family: 'K2D', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #container {
+        background: offwhite;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        width: 90%;
+        height: 70vh;
+        border-radius: 10px;
+        position: relative;
+    }
+    #content {
+        width: 58%;
+    }
+    #link {
+        color: #6EAF7F;
+        text-decoration: underline;
+    }
+    #fetchBtn, #addUserBtn, #deleteUserBtn, #addSubmit, #deleteSubmit {
+        padding: 9px 12px;
+        background: linear-gradient(to right, #134e5e, #71b280);
+        color: white;
+        border-radius: 25px;
+        font-size: 1rem;
+        outline: none;
+        transition: 0.3s linear;
+        margin: 2px 0;
+        font-size: 0.8rem;
+        
+    }
+    #fetchBtn:hover, #addUserBtn:hover, #deleteUserBtn:hover, #submit:hover {
+        background: #6EAF7F;
+    }
+    .deleteIcon {
+    	margin-right: 15px;
+    }
+    
+    .deleteIcon:hover {
+    	color: tomato;
+    }
+    
+    .employee-list-item:hover {
+    	background: rgba(	113, 178, 128, 0.6);
+    }
+    
+    #addSubmit, #deleteSubmit {
+        align-self: center; 
+        margin: 10px 0;
+        padding: 6px 9px;
+        margin-bottom: 0;
+    }
+    #addNewEmployee, #deleteEmployee {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%; 
+        border: 1px solid #6EAF7F;
+    }
+    #addNewEmpForm, #deleteEmpForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 0 auto; 
+    }
+    #tabs {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: flex-start;
+        margin-left: 5px;
+        position: absolute;
+        left: 0;
+    }
+    .header-text {
+        font-weight: bold;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-shadow: 1px 1px 0.5px black;
+    }
+    .employee-list-item {
+        font-size: 0.9rem; 
+        border-bottom: 1px solid #16515F; 
+        border-top: 1px solid #16515F; 
+        list-style: none; 
+        text-align: center;
+    }
+    #addNewEmployee, #deleteEmployee {
+        margin: 0 auto; 
+        text-align: center; 
+        padding: 10px 0;
+    }
+        

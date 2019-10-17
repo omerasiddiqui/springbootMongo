@@ -23,6 +23,8 @@ public class DbSeeder implements CommandLineRunner {
 
 	@Override
 	public void run(String... strings) throws Exception {
+		System.out.println("starting main method from db seeder");
+		
 		Employee employee1 = new Employee(
 				"Ervin Howell",
 				"Developer",
